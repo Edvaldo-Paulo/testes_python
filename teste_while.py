@@ -10,7 +10,7 @@ contador = 1
 while contador <= 3:
     
     if email != confirma_email and senha != confirma_senha:
-        print('Você digitou o nome incorreto. Tente novamente!')
+        print('Você digitou o e-mail incorreto. Tente novamente!')
         confirma_email = input('Confirme o e-mail: ')
         print('Você digitou a senha incorreta. Tente novamente!')
         confirma_senha = input('Confirme a senha: ')
